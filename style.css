@@ -1,0 +1,553 @@
+*{
+    margin:0;
+    padding: 0;
+}
+h2{
+font-weight: 700;
+font-size: 8vw;
+position: absolute;
+top: 1.4rem;
+left: 2rem;
+}
+.soustitre{
+display: flex;
+flex-direction: column;
+position: absolute;
+top: 5rem;
+left: 2rem;
+gap: 1rem;
+}
+.soustitre h4{
+font-weight: 600;
+font-size: 4vw;
+line-height:27px;
+text-transform: uppercase;
+}
+.soustitre p{
+
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 21px;
+}
+img{
+    width:7rem ;
+    min-height: 2rem;
+    object-fit: cover;
+}
+.card1{
+
+position: absolute;
+top: 14rem;
+left: 2rem;
+}
+.card1 p{
+font-weight: 600;
+font-size: 1rem;
+}
+.job1{
+
+    transform: rotate(90deg);
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 16.6rem;
+    left: 6.4rem;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    white-space: nowrap;
+}
+.card2{
+
+    position: absolute;
+    top: 28rem;
+    left: 2rem;
+    }
+    .card2 p{
+    font-weight: 600;
+    font-size: 1rem;
+    }
+    .job2{
+    
+        transform: rotate(90deg);
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        top: 29.4rem;
+        left: 7.4rem;
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        white-space: nowrap;
+    }
+    .card3{
+
+        position: absolute;
+        top: 42rem;
+        left: 2rem;
+        }
+        .card3 p{
+        font-weight: 600;
+        font-size: 1rem;
+        }
+        .job3{
+        
+            transform: rotate(90deg);
+            position: absolute;
+            display: flex;
+            flex-direction: row;
+            top: 43.6rem;
+            left: 7.3rem;
+            text-transform: uppercase;
+            font-size: 0.7rem;
+            white-space: nowrap;
+        }
+        .card4{
+
+            position: absolute;
+            top: 18rem;
+            left: 14rem;
+            }
+            .card4 p{
+            font-weight: 600;
+            font-size: 1rem;
+            }
+            .job4{
+            
+                transform: rotate(90deg);
+                position: absolute;
+                display: flex;
+                flex-direction: row;
+                top: 20rem;
+                left: 18.9rem;
+                text-transform: uppercase;
+                font-size: 0.7rem;
+                white-space: nowrap;
+            }
+
+            .card5{
+
+                position: absolute;
+                top: 32rem;
+                left: 14rem;
+                }
+                .card5 p{
+                font-weight: 600;
+                font-size: 1rem;
+                }
+                .job5{
+                
+                    transform: rotate(90deg);
+                    position: absolute;
+                    display: flex;
+                    flex-direction: row;
+                    top: 33.8rem;
+                    left: 19rem;
+                    text-transform: uppercase;
+                    font-size: 0.7rem;
+                    white-space: nowrap;
+                }
+
+
+                .card6{
+
+                    position: absolute;
+                    top: 46rem;
+                    left: 14rem;
+                    }
+                    .card6 p{
+                    font-weight: 600;
+                    font-size: 1rem;
+                    }
+                    .job6{
+                    
+                        transform: rotate(90deg);
+                        position: absolute;
+                        display: flex;
+                        flex-direction: row;
+                        top: 47.6rem;
+                        left: 19.3rem;
+                        text-transform: uppercase;
+                        font-size: 0.7rem;
+                        white-space: nowrap;
+                    }
+    
+
+
+
+
+@media only screen and (min-width:768px) 
+{
+h2{
+    font-weight: 700;
+    font-size: 8vw;
+    position: absolute;
+    top: 1.4rem;
+    left: 4rem;
+}
+.soustitre{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 8rem;
+    left: 4rem;
+    gap: 1rem;
+    }
+    .soustitre h4{
+    font-weight: 600;
+    font-size: 4vw;
+    line-height:27px;
+    text-transform: uppercase;
+    }
+    .soustitre p{
+    
+        font-weight: 400;
+        font-size: 4vw;
+        line-height: 30px;
+    }
+    img{
+        width:15rem ;
+        min-height: 4rem;
+        object-fit: cover;
+    }
+    .card1{
+    
+    position: absolute;
+    top: 20rem;
+    left: 4rem;
+    }
+    .card1 p{
+    font-weight: 600;
+    font-size: 1.2rem;
+    }
+    .job1{
+
+        transform: rotate(90deg);
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        top: 23.3rem;
+        left: 15.6rem;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        white-space: nowrap;
+    }
+    .card2{
+
+        position: absolute;
+        top: 51rem;
+        left: 4rem;
+        }
+        .card2 p{
+        font-weight: 600;
+        font-size: 1.2rem;
+        }
+        .job2{
+        
+            transform: rotate(90deg);
+            position: absolute;
+            display: flex;
+            flex-direction: row;
+            top: 52.9rem;
+            left: 17rem;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            white-space: nowrap;
+        }
+        .card3{
+
+            position: absolute;
+            top: 81rem;
+            left: 4rem;
+            }
+            .card3 p{
+            font-weight: 600;
+            font-size: 1.2rem;
+            }
+            .job3{
+                transform: rotate(90deg);
+                position: absolute;
+                display: flex;
+                flex-direction: row;
+                top: 83.1rem;
+                left:16.8rem;
+                text-transform: uppercase;
+                font-size: 0.9rem;
+                white-space: nowrap;
+            }
+            .card4{
+
+                position: absolute;
+                top: 25rem;
+                left: 24rem;
+            }
+                .card4 p{
+                font-weight: 600;
+                font-size: 1.2rem;
+                }
+                .job4{
+                
+                    transform: rotate(90deg);
+                    position: absolute;
+                    display: flex;
+                    flex-direction: row;
+                    top: 27.71rem;
+                    left: 36.3rem;
+                    text-transform: uppercase;
+                    font-size: 0.9rem;
+                    white-space: nowrap;
+                }
+
+                .card5{
+
+                    position: absolute;
+                    top: 56.7rem;
+                    left: 24rem;
+                    }
+                    .card5 p{
+                    font-weight: 600;
+                    font-size: 1.2rem;
+                    }
+                    .job5{
+                    
+                        transform: rotate(90deg);
+                        position: absolute;
+                        display: flex;
+                        flex-direction: row;
+                        top: 59.1rem;
+                        left: 36.5rem;
+                        text-transform: uppercase;
+                        font-size: 0.9rem;
+                        white-space: nowrap;
+                    }
+
+                    .card6{
+
+                        position: absolute;
+                        top: 88.4rem;
+                        left: 24rem;
+                        }
+                        .card6 p{
+                        font-weight: 600;
+                        font-size: 1.2rem;
+                        }
+                        .job6{
+                        
+                            transform: rotate(90deg);
+                            position: absolute;
+                            display: flex;
+                            flex-direction: row;
+                            top: 90.5rem;
+                            left: 36.8rem;
+                            text-transform: uppercase;
+                            font-size: 0.9rem;
+                            white-space: nowrap;
+                        }
+
+
+
+
+
+
+
+}
+@media only screen and (min-width:1440px) {
+
+h2{
+    font-weight: 700;
+    font-size: 4vw;
+    position: absolute;
+    top: 1.4rem;
+    left: 6rem;
+}
+
+.soustitre{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 1.4rem;
+    left: 50rem;
+    gap: 1rem;
+    }
+    .soustitre h4{
+    font-weight: 600;
+    font-size: 2vw;
+    line-height:27px;
+    text-transform: uppercase;
+    }
+    .soustitre p{
+    
+        font-weight: 400;
+        font-size: 2vw;
+        line-height: 30px;
+    }
+    img{
+        width:17rem ;
+        object-fit: cover;
+    }
+    .card1{
+    
+    position: absolute;
+    top: 20rem;
+    left: 6rem;
+    }
+    .card1 p{
+    font-weight: 600;
+    font-size: 2rem;
+    }
+    .job1{
+
+        transform: rotate(90deg);
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        top: 24.7rem;
+        left: 18rem;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        white-space: nowrap;
+    }
+    .card2{
+
+        position: absolute;
+        top: 51rem;
+        left: 6rem;
+        }
+        .card2 p{
+        font-weight: 600;
+        font-size: 2rem;
+        }
+        .job2{
+        
+            transform: rotate(90deg);
+            position: absolute;
+            display: flex;
+            flex-direction: row;
+            top: 53.6rem;
+            left: 20rem;
+            text-transform: uppercase;
+            font-size: 1.3rem;
+            white-space: nowrap;
+        }
+        .container2{
+            position: absolute;
+            top: -31rem;
+            left: 57rem;
+        }
+        .card3{
+
+            position: absolute;
+            top: 62rem;
+            left: 4rem;
+            }
+            .card3 p{
+            font-weight: 600;
+            font-size: 2rem;
+            }
+            .job3{
+                transform: rotate(90deg);
+                position: absolute;
+                display: flex;
+                flex-direction: row;
+                top: 65rem;
+                left:17.8rem;
+                text-transform: uppercase;
+                font-size: 1.3rem;
+                white-space: nowrap;
+            }
+            .container3{
+
+                position: absolute;
+                top: 5rem;
+                left: 30rem;
+            }
+            .card4{
+
+                position: absolute;
+                top: 40rem;
+                left: 4rem;
+                }
+                .card4 p{
+                font-weight: 600;
+                font-size: 2rem;
+                }
+                .job4{
+                    transform: rotate(90deg);
+                    position: absolute;
+                    display: flex;
+                    flex-direction: row;
+                    top: 44rem;
+                    left:17rem;
+                    text-transform: uppercase;
+                    font-size: 1.3rem;
+                    white-space: nowrap;
+                }
+                .container4{
+    
+                    position: absolute;
+                    top: -10rem;
+                    left: 30rem;
+                }
+
+
+                .card5{
+
+                    position: absolute;
+                    top: 70rem;
+                    left: 4rem;
+                    }
+                    .card5 p{
+                    font-weight: 600;
+                    font-size: 2rem;
+                    }
+                    .job5{
+                        transform: rotate(90deg);
+                        position: absolute;
+                        display: flex;
+                        flex-direction: row;
+                        top: 73.5rem;
+                        left:17.3rem;
+                        text-transform: uppercase;
+                        font-size: 1.3rem;
+                        white-space: nowrap;
+                    }
+                    .container5{
+        
+                        position: absolute;
+                        top: -10rem;
+                        left: 2.4rem;
+                    }
+
+
+
+
+                    .card6{
+
+                        position: absolute;
+                        top: 70rem;
+                        left: 4rem;
+                        }
+                        .card6 p{
+                        font-weight: 600;
+                        font-size: 2rem;
+                        }
+                        .job6{
+                            transform: rotate(90deg);
+                            position: absolute;
+                            display: flex;
+                            flex-direction: row;
+                            top: 73rem;
+                            left:17.8rem;
+                            text-transform: uppercase;
+                            font-size: 1.3rem;
+                            white-space: nowrap;
+                        }
+                        .container6{
+            
+                            position: absolute;
+                            top: -9.9rem;
+                            left: 57rem;
+                        }
+    
+
+
+
+}
